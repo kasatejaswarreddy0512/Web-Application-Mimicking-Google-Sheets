@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/7c4a70bd-a0ca-4222-ba47-909482d7d137)# Web-Application-Mimicking-Google-Sheets
+# Web-Application-Mimicking-Google-Sheets
 
 This project is a web application that mimics the user interface and core functionalities of Google Sheets. The application is built using HTML, CSS, and JavaScript and supports key features such as mathematical functions, data quality tools, dynamic cell interactions, and more.
 
