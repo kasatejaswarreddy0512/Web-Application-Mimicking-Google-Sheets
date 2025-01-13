@@ -5,6 +5,7 @@ This project is a web application that mimics the user interface and core functi
 # Features
 
 **1. Spreadsheet Interface**
+
 Dynamic Grid: A dynamic spreadsheet grid with editable cells.
 
 Headers: Column and row headers to navigate cells easily.
@@ -71,9 +72,16 @@ SheetJS (xlsx): For saving and loading Excel files.
 
 # Usage
 
-1. Editing Cells: Click on any cell to edit its content or enter formulas.
-2. Applying Formulas: Use the formula bar to enter mathematical or data quality functions (e.g., =SUM(A1:A5)).
-3. Formatting Cells: Use the toolbar to apply text formatting and colors.
-4. Saving Data: Click the Save Spreadsheet button to download the spreadsheet as an Excel file.
-5. Charts: Select data and click Create Chart to generate a visual chart.
-6. Testing: Click Run Tests to execute predefined test cases.
+1. **Editing Cells:** Click on any cell to edit its content or enter formulas.
+2. **Applying Formulas:** Use the formula bar to enter mathematical or data quality functions (e.g., =SUM(A1:A5)).
+3. **Formatting Cells:** Use the toolbar to apply text formatting and colors.
+4. **Saving Data:** Click the Save Spreadsheet button to download the spreadsheet as an Excel file.
+5. **Charts:** Select data and click Create Chart to generate a visual chart.
+6. **Testing:** Click Run Tests to execute predefined test cases.
+
+# Future Enhancements
+
+1. **Complex Formulas:** Add support for relative and absolute cell references (e.g., $A$1).
+2. **Auto-Update Dependencies:** Ensure formulas update automatically when dependent cells change.
+3. **Advanced Charting:** Allow users to customize chart types and ranges.
+4. **Improved Data Validation:** Add stricter validation rules for specific data types.
