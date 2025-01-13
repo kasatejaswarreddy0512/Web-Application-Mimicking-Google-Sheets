@@ -30,6 +30,7 @@ The following mathematical functions are supported:
 **COUNT:** Count the number of numeric cells in a range (e.g., =COUNT(A1:A5)).
 
 **3. Data Quality Functions**
+
 **TRIM:** Remove leading and trailing spaces in a cell.
 
 **UPPER:** Convert text in a cell to uppercase.
@@ -39,3 +40,40 @@ The following mathematical functions are supported:
 **REMOVE_DUPLICATES:** Remove duplicate rows from a selected range.
 
 **FIND_AND_REPLACE:** Find and replace specific text within a range of cells.
+
+**4. Additional Features**
+
+**Data Validation:** Ensure numeric cells contain only numbers.
+
+**Save and Load:** Save spreadsheets as Excel files and load them back.
+
+**Charts:** Generate charts using Chart.js for data visualization.
+
+**Testing:** Run predefined test cases to validate functions.
+
+
+# Techinologies Used
+
+**Frounted** 
+
+**HTML** :Structure of the application.
+
+**CSS** :Styling of Layout.
+
+**JavaScript** :Functionality, formula parsing, and dynamic updates.
+
+**Libraries and Tools**
+
+Chart.js :For Data visulization
+
+SheetJS (xlsx): For saving and loading Excel files.
+
+
+# Usage
+
+1. Editing Cells: Click on any cell to edit its content or enter formulas.
+2. Applying Formulas: Use the formula bar to enter mathematical or data quality functions (e.g., =SUM(A1:A5)).
+3. Formatting Cells: Use the toolbar to apply text formatting and colors.
+4. Saving Data: Click the Save Spreadsheet button to download the spreadsheet as an Excel file.
+5. Charts: Select data and click Create Chart to generate a visual chart.
+6. Testing: Click Run Tests to execute predefined test cases.
